@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Event Recommendation">
+    <meta name="Zhiyu" content="Event recommentation system">
+    <title>Item Recommendation Final</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css?v=100">
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <h1 style="text-align: center"> Search a location</h1>
+        <div style="width:30%; margin:25px auto;">
+            <form action="./search" method="get">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="user_id" placeholder="user_id">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="lat" placeholder="Latitude">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="lon" placeholder="Lontitude">
+                </div>
+                <div class="form-group">
+
+                    <button class="btn btn-lg btn-default btn-primary btn-block">Submit!</button>
+                </div>
+            </form>
+            <a href="/campgrounds">go back</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
